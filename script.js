@@ -1,5 +1,5 @@
 function encryptSentence() {
-    var sentence = document.getElementById("sentence").value;
+    var sentence = document.getElementById("sentence").value.toLowerCase();
     var encryptedSentence = "";
 
     for (var i = 0; i < sentence.length; i++) {
